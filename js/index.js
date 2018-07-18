@@ -2,9 +2,9 @@ $(function() {
 	function iphone() {
 		var u = navigator.userAgent;
 		if (u.indexOf('Android') > -1 || u.indexOf('Linux') > -1) {//安卓手机
-			$(".lafite_phone").attr("href","function://callapp?f=test&title=高温福利，狂赚8888元&description=0门槛，邀请有效即奖励，最高赚8888元。1元可提现，你来下载提现试试！&image=http://hbhunter.oss-cn-qingdao.aliyuncs.com/yuetoutiao/Material/shujia/share_wx.png&link=http://url.cn/5UTcSl0&callback=shareDone");
+			$(".lafite_phone").attr("href","function://callapp?f=test&title=高温福利，狂赚8888元&description=0门槛，邀请有效即奖励，最高赚8888元。1元可提现，你来下载提现试试！&image=http://chuantu.biz/t6/344/1531825337x-1404817724.png&link=http://url.cn/5UTcSl0&callback=shareDone");
 		} else if (u.indexOf('iPhone') > -1) {//苹果手机
-			$(".lafite_phone").attr("href","function://callapp?f=showShareView&title=高温福利，狂赚8888元&description=0门槛，邀请有效即奖励，最高赚8888元。1元可提现，你来下载提现试试！&image=http://hbhunter.oss-cn-qingdao.aliyuncs.com/yuetoutiao/Material/shujia/share_wx.png&link=http://url.cn/5UTcSl0&callback=shareDone");
+			$(".lafite_phone").attr("href","function://callapp?f=showShareView&title=高温福利，狂赚8888元&description=0门槛，邀请有效即奖励，最高赚8888元。1元可提现，你来下载提现试试！&image=http://chuantu.biz/t6/344/1531825337x-1404817724.png&link=http://url.cn/5UTcSl0&callback=shareDone");
 		} else if (u.indexOf('Windows Phone') > -1) {//winphone手机
 		// alert("winphone手机");
 		// window.location.href = "mobile/index.html";
